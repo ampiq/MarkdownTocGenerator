@@ -34,6 +34,10 @@ To make jar use(jar will be ready for usage in /target: MarkDownGenerator-1.0-SN
 mvn package
 ```
 
+## Release
+
+https://github.com/ampiq/MarkdownTocGenerator/releases/tag/1.0.0
+
 ## Meta
 
 David Guyo
