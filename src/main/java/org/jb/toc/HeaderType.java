@@ -1,6 +1,6 @@
 package org.jb.toc;
 
-public enum HeaderType implements Comparable<HeaderType>{
+public enum HeaderType {
 
   FIRST_LEVEL("#"),
   SECOND_LEVEL("##"),
@@ -33,5 +33,7 @@ public enum HeaderType implements Comparable<HeaderType>{
 	}
   }
 
-
+  public int diff(HeaderType that) {
+	return that.starts().length() - this.starts().length();
+  }
 }
